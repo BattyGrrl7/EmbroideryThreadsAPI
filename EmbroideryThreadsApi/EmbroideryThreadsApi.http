@@ -1,0 +1,6 @@
+@EmbroideryThreadsApi_HostAddress = http://localhost:5082
+
+GET {{EmbroideryThreadsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
