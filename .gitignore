@@ -3,3 +3,26 @@
 ################################################################################
 
 /.vs/EmbroideryThreadsApi
+/EmbroideryThreadsApi/bin/Debug/net9.0
+/EmbroideryThreadsApi.Testing/bin/Debug/net9.0
+/EmbroideryThreadsApi.Testing/obj
+/EmbroideryThreadsApi/obj/Debug/net9.0/ref
+/EmbroideryThreadsApi/obj/Debug/net9.0/refint
+/EmbroideryThreadsApi/obj/Debug/net9.0/apphost.exe
+/EmbroideryThreadsApi/obj/Debug/net9.0/Embroide.73B18AB9.Up2Date
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.AssemblyInfo.cs
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.AssemblyInfoInputs.cache
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.csproj.CoreCompileInputs.cache
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.csproj.FileListAbsolute.txt
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.dll
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.genruntimeconfig.cache
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.MvcApplicationPartsAssemblyInfo.cache
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.MvcApplicationPartsAssemblyInfo.cs
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.pdb
+/EmbroideryThreadsApi/obj/Debug/net9.0/EmbroideryThreadsApi.sourcelink.json
+/EmbroideryThreadsApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/EmbroideryThreadsApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/EmbroideryThreadsApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/EmbroideryThreadsApi/obj/Debug/net9.0/staticwebassets.build.json
+/EmbroideryThreadsApi/obj/Debug/net9.0/staticwebassets.build.json.cache
+/EmbroideryThreadsApi/obj/Debug/net9.0/staticwebassets.references.upToDateCheck.txt
