@@ -2,12 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/EmbroideryThreadsApi
-/.vs/ProjectEvaluation
-/EmbroideryThreadsApi/bin/Debug/net9.0
+/.vs
+/bin
+/obj
 /EmbroideryThreadsApi.Testing/bin/Debug/net9.0
 /EmbroideryThreadsApi.Testing/obj
 /EmbroideryThreadsApi/obj
 /EmbroideryThreadsApi/obj/Debug
+/EmbroideryThreadsApi/bin
 
-/EmbroideryThreadsApi/obj/Debug/net9.0
