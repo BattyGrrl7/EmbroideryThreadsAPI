@@ -4,6 +4,7 @@
     {
         public int PresenciaId { get; set; }
         public required string PresenciaNumber { get; set; }
+        public required string PresenciaName { get; set; }
         /// <summary>
         /// Foreign key to Colors table
         /// </summary>

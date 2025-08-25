@@ -6,6 +6,7 @@ namespace EmbroideryThreadsApi.Models
     {
         public int AnchorId { get; set; }
         public required string AnchorNumber { get; set; }
+        public required string AnchorName { get; set; }
 
         /// <summary>
         /// Foreign key to Colors table

@@ -9,6 +9,7 @@ namespace EmbroideryThreadsApi.Models
         public int DMCId { get; set; }
 
         public required string DMCNumber { get; set; }
+        public required string DMCName { get; set; }
 
         /// <summary>
         /// Foreign key to Colors table

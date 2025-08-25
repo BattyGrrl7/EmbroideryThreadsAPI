@@ -5,6 +5,8 @@
         public int DimensionsId { get; set; }
         public required string DimensionsNumber { get; set; }
 
+        public required string DimensionsName { get; set; }
+
         /// <summary>
         /// Foreign key to Colors table
         /// </summary>
