@@ -1,13 +1,25 @@
+using EmbroideryThreadsApi.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//Add connection string
+var connectionString = builder.Configuration.GetConnectionString("DatabaseConnection");
 
+builder.Services.AddDbContext<EmbroideryThreadsContext>(options =>
+    options.UseSqlServer(connectionString)
+);
+
+// Add services to the container.
 builder.Services.AddControllers();
 
-// 1. Add the API Explorer service (required for minimal APIs and good practice)
+//Add the API Explorer service (required for minimal APIs and good practice)
 builder.Services.AddEndpointsApiExplorer();
 
-// 2. Add the Swagger generator service
+builder.Services.AddScoped<IColorsRepo, MockColorRepo>();
+
+
+//Add the Swagger generator service
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -26,11 +38,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    // app.MapOpenApi();
-    // 1. Serves the generated Swagger JSON document (the OpenAPI specification)
     app.UseSwagger();
-
-    // 2. Serves the Swagger UI (HTML, JS, CSS)
     app.UseSwaggerUI();
 }
 
